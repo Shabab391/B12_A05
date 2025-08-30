@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --tw-font-sans: "Inter", ui-sans-serif, system-ui,  "Roboto", 
+  }
+</style>
+     
+
+</head>
+<body>
+    <header>
+        <div class="bg-[#ffffff]">
+            <!-- left logo -->
+            <div class="flex justify-between items-center w-[1536px] mx-auto py-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./assets/logo.png" class="w-[50px] h-auto"/>
+                        <p class="text-[#006747] text-xl font-black" style="font-family: Inter">Emergency <br>
+                            Service</p>
+                    </div>
+
+                    <!-- right logo -->
+                    <div class="flex gap-5 ">
+                        <div class="flex items-center bg-[#41ff6b1a] h-[52px] w-[123px] rounded-full justify-center gap-2">
+                            <div class="text-lg font-extrabold" style="font-family: Inter">0</div>
+                            <img src="./assets/heart.png" class="w-[30px] h-auto" />
+                        </div>
+                        <div class="flex items-center bg-[#41ff6b1a] h-[52px] w-[123px] rounded-full justify-center gap-2">
+                            <div class="text-lg font-extrabold" style="font-family:Inter">100</div>
+                            <img src="./assets/coin.png" class="w-[24px] h-auto"/>
+                        </div>
+                        <div>
+                        <button class="btn bg-[#00a63e] text-white rounded-full h-[52px] w-[127px]" style="font-family:Inter">Copy</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-- banner -->
+        <div class="w-full h-[239px] bg-[linear-gradient(to_right,#013223,#006747,#013223)] flex flex-col justify-center items-center">
+            <div>
+                <img src="./assets/logo-dark.png" class="w-[92px] h-auto">
+            </div>
+            <div class="text-white font-bold text-2xl" style="font-family: Hind Madurai">Emergency Service Directory</div>
+            <div class="text-white font-semibold" style="font-family: Hind Madurai">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</div>
+        </div>
+    </header>
+    <!-- hero -->
+    <main class="bg-[#41ff6b1a] w-full min-h-[200px] flex gap-10 py-20px">
+         <!-- 1st card-->
+        <div class="grid grid-cols-3">
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/emergency.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">National Emergency Number </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">National Emergency</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">999</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">All</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+             <!-- 2nd card/> -->
+
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/police.png" class="w-[60px] h-auto bg-[#DFEFFF] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Police Helpline Number </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Police</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">999</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Police</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+ <!-- 3rd card -->
+
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/fire-service.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Fire Service Number </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Fire Service</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">999</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Fire</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+<!--    5th card -->
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/ambulance.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Ambulance Service </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Ambulance</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">1994-999999</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-16 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Health</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        <!--    6th card -->
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/emergency.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Women & Child Helpline </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Women & Child Helpline</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">109</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Help</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--    7th card -->
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/emergency.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Anti-Corruption Helpline </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Anti-Corruption</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">106</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Govt.</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+<!--    8th card -->
+                        <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/emergency.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Electricity Helpline</div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Electricity Outage</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">16216</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-20 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Electricity</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+<!--    9th card -->
+                        <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/brac.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Brac Helpline</div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Brac</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">16445</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">NGO</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+                        <!-- 4th card -->
+            <div class="card bg-base-100 w-[436px] shadow-sm py-5 my-9 mx-10">
+                <div class="flex justify-between  items-center px-8 my-3 ">
+                    <img src="./assets/Bangladesh-Railway.png" class="w-[60px] h-auto bg-[#FFE3E2] rounded-xl p-3 "/>
+                    <!-- <img src="./assets/heart.png" class="w-[24px] h-auto"/> -->
+                    <button><i class="fa-regular fa-heart w-[24px] h-auto"></i></button>
+                </div>
+
+
+                <div class="flex flex-col mx-auto">
+                        <div class=" font-black text-xl" style="font-family: Hind Madurai">Bangladesh Railway Helpline </div>
+                        <div class="font-regular text-lg text-gray-500" style="font-family: Roboto">Bangladesh Railway</div>
+
+                    <div class="flex flex-col my-5">
+                        <h2 class=" font-black text-2xl" style="font-family: Roboto">163</h2>
+                        <h1 class="bg-[#F2F2F2] rounded-xl p-2 w-14 text-center font-regular text-gray-500"  style="font-family: Hind Madurai">Travel</h1>
+                    </div>
+
+                    <div class="card-actions justify-center ">
+                        <button class="btn bg-[white] h-[40px] w-[181px] rounded-xl text-gray-500" style="font-family: Roboto"><i class="fa-regular fa-copy"></i></i>Copy</button>
+                        <button class="btn bg-[#00a63e] h-[40px] w-[181px] rounded-xl text-white"style="font-family: Roboto"><i class="fa-solid fa-phone"></i></i>Call</button>
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+
+ 
+    
+        <div>history</div>
+    </main>
+  
+</body>
+</html> 
